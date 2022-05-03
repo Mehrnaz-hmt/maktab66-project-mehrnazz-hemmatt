@@ -1,25 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <div className="text-cyan-300 ext-3xl  font-semibold text-2xl	 italic">
+    //   Hello
+    // </div>
+    <header class="px-4 py-2 bg-blue-100">
+  <div class="flex justify-between items-center container mx-auto">
+    <img
+      src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643004937711/k3NMskkSn.png"
+      width="50"
+      alt="Daily Dev Tips Logo"
+    />
+    <strong>This is my website</strong>
+    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Click me
+    </button>
+  </div>
+</header>
   );
 }
 
 export default App;
+
+
